@@ -1,0 +1,76 @@
+
+TOOL PALETTE
+
+SUBTOOLS:
+Extract ( S Smt, Thick, null, Double, TCorner, TBroder)
+
+GEOMETRY :
+Divide > 1 1 (smt > sUV)
+---
+s.Dynamic > (0 > Qgrid > "bevel" > "chamfer" > cov > "constant" > flatsubdiv > smooth subdiv)
+---
+edgeloop > 0 0 ("crisp", disp)
+groupsLoop > 4 50 1 ( loops, gpolish, "triangle" )
+Panel Loops (loops, "double", "append", "inner", thickness, polish, "ignore Groups",
+	     "ReGroupPanels", "RegroupLoops", bevel, elevation )
+Delete Loops (angle, aspect ration)
+Align Loops ("partial", "group")
+---
+Crease ( 0, cTolerance, CreaseLvl )
+CreaseAll ( cTolerance, CreaseLvl )
+Bevel ( "PropWidth", resolution, bevel width, edge sharp)
+--
+ShadowBox (res, polish)
+--
+ClayPolish (max, min, sharp, soft, RSharp,Rsoft, Edge, Surface)
+--
+Dynamesh ("Proups", "Polish", blur, "Project", resolution, subprojection, "add", "sub", "and" )
+CreateShell ( thickness)
+--
+*Tessimate ( XYZ , "Tesselate", "Decimate", Polygons Size)
+--
+**Zremesher ( "legacy", "freezeborder", "freezeGroups", smoothGroups, "KeepGroups", "KeepCrease", "DetectEdges", target polygons count, "half", "Same", "Double", "Adapt", adaptiveSize, curveStrenght, "use polypaint" )
+--
+WeldPoints (WeldDist)
+Grid Divide (GD Segments)
+
+MASKING: 
+MaskByFeature ( "Border", "Groups", "Crease")
+MaskByDraft (draftAngle)
+Mask Ambient Occlusion (occlusion intensity, AO ScanDist, AO Aperture)
+Mask By Cavity (blur, intensity)
+Mask by smoothness (Range, Falloff)
+Mask PeaksAndValleys (PVRange, PVCoverage)
+Mask By Alpha (Intens, Blend)
+
+POLYGROUPS :
+
+regroup by edge( edgesensitivity)
+Groups by Normals (Max Angle)
+Group Visible (coverage, clstr)
+Group Front ( angle , "Additive")
+Group Masked ( PolishGroup )
+from polypaint (PTolerance)
+From Masking (MTolerance)
+
+ALPHA PALETTE
+MODIFY:
+***Alpha ( Noise, NRadius, Blur, "Max", "Aa", H Tiles, V Tiles, "Surface", MidValue, Seamless, Intensity, Contrast)
+
+
+BRUSH PALETTE
+
+****Sample ( "BuildUp", "OnSurface", "Fast Sample", and is broken.. )
+Modifiers ( Brush Modifier, Strength Multiplier,Smooth, Pressure, Tilt Brush, "ConstantTilt" )
+Automasking:
+
+Mask By polygroup 1
+Directional (ByPressure)
+BackFaceMask (BackMaskInt)
+ColorMask (ColorMaskInt)
+Topological (Range, Smooth)
+
+
+* : imodget
+** : 15 arguments required
+*** : 17 arguements required
