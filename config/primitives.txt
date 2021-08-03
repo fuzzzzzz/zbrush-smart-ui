@@ -1,0 +1,42 @@
+14 tool:spiral3d(Horn) 0 1 0 175 0 55 0 90 30 0 0 3.5 0 16 128
+19 tool:polymesh3d:QCube(QCube_4x4x4) 2 2 2
+01 tool:arrow3d(Double-Arrows) 0 1 0 18 34 5 0 5 0 12 1
+02 tool:arrow3d(Spike) 1 0 0 25 70 37 0 73 0 6
+03 tool:arrow3d(Column) 0 1 0 0 0 100 0 50 100 16 1
+04 tool:plane3d(Quad Poly) 0 0 1 100 100 2 2
+05 tool:plane3d(Grid_Z_3*3) 0 0 1 100 100 3 3
+06 tool:plane3d(Grid_Z_6*6) 0 0 1 100 100 7 7
+07 tool:plane3d(Grid_Z_12*12) 0 0 1 100 100 13 13
+08 tool:cube3d(Cube_4x4x4) 0 1 0 100 100 100 4 0 4 5
+09 tool:cube3d(Bolt) 0 1 0 100 100 100 5 0 5 5
+10 tool:cylinder3d(Tube_12x4) 0 1 0 100 100 100 50 12 4 0 0
+11 tool:sphere3d(Eyeball_12x12) 0 0 1 100 100 100 360 12 12
+12 tool:cone3d(Tube) 0 1 0 100 100 100 50 8 8 0
+13 tool:ring3d(Ring) 0 1 0 18 360 1 720 4 64 0
+15 tool:helix3d(Helix) 0 1 0 10 0
+16 tool:gear3d(Gear) 0 0 1 90 50 25 10 10 30 20
+17 tool:circle3d(Circle) 0 0 1 100 100 100 100 8 8 180
+18 tool:polymesh3d:QGrid(QGrid_20x12x32) 20 12 32
+20 tool:polymesh3d:QSphere(QSphere_2x2x2) 2 2 2
+21 tool:polymesh3d:QCylX(QCylinder_X_2x2x2) 2 2 2
+22 tool:polymesh3d:QCylY(QCylinder_Y_2x2x2) 2 2 2
+23 tool:polymesh3d:QCylZ(QCylinder_Z_2x2x2) 2 2 2
+24 tool:polymesh3d:QGrid(QGrid_3x3x3) 3 3 3
+25 tool:polymesh3d:QCube(QCube_3x3x3) 3 3 3
+26 tool:polymesh3d:QSphere(QSphere_3x3x3) 3 3 3
+27 tool:polymesh3d:QCylX(QCylinder_X_3x3x3) 3 3 3
+28 tool:polymesh3d:QCylY(QCylinder_Y_3x3x3) 3 3 3
+29 tool:polymesh3d:QCylZ(QCylinder_Z_3x3x3) 3 3 3
+30 tool:polymesh3d:QGrid(QGrid_16x16x16) 16 16 16
+31 tool:polymesh3d:QCube(QCube_8x8x8) 8 8 8
+32 tool:polymesh3d:QSphere(QSphere_8x8x8) 8 8 8
+33 tool:polymesh3d:QCylX(QCylinder_X_4x4x2) 4 4 2
+34 tool:polymesh3d:QCylY(QCylinder_Y_4x4x2) 4 4 2
+35 tool:polymesh3d:QCylZ(QCylinder_Z_4x2x2) 4 2 2
+33 tool:polymesh3d:QCylX(QCylinder_X_4x4x2) 4 4 2
+34 tool:polymesh3d:QCylY(QCylinder_Y_4x4x2) 4 4 2
+35 tool:polymesh3d:QCylZ(QCylinder_Z_4x2x2) 4 2 2
+33 tool:polymesh3d:QCylX(QCylinder_X_4x4x2) 4 4 2
+34 tool:polymesh3d:QCylY(QCylinder_Y_4x4x2) 4 4 2
+35 tool:polymesh3d:QCylZ(QCylinder_Z_4x2x2) 2 2 3
+35 tool:polymesh3d:QCylZ(QCylinder_Z_4x2x2) 2 2 3

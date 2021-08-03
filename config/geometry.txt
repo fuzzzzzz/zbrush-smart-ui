@@ -1,0 +1,46 @@
+01 tool:geometry:Divide
+03 tool:subtool:Duplicate
+02 tool:geometry:Delete Hidden
+03 tool:subtool:Delete
+05 tool:subtool:Delete All
+04 tool:geometry:ZRemesher
+05 tool:geometry:WeldPoints
+06 tool:geometry:Close Hole 
+07 tool:geometry:s.Dynamic
+08 tool:geometry:Del Lower
+09 tool:geometry:Del Higher
+11 tool:geometry:Crease
+12 tool:geometry:UnCrease
+13 tool:geometry:Crease PG
+14 tool:geometry:UnCrease PG
+15 tool:geometry:Groups Split
+10 tool:geometry:Split Hidden
+16 tool:geometry:Unweld Groups Border
+17 tool:geometry:Unweld All
+18 tool:geometry:Check Mesh integrity
+19 tool:geometry:Fix Mesh
+20 tool:deformation:Unify
+21 tool:deformation:Mirror
+22 tool:masking:MaskByFeature
+23 tool:visibility:Grow
+24 tool:visibility:Shrink
+25 tool:polygroups:Auto Groups
+26 tool:polygroups:Groups by Normals
+27 tool:morph target:StoreMT
+28 tool:Load Tool
+29 tool:Import
+30 tool:Export
+31 tool:deformation:Mirror
+32 tool:masking:MaskByFeature
+33 tool:visibility:Grow
+34 tool:visibility:Shrink
+35 tool:polygroups:Auto Groups
+36 tool:polygroups:Groups by Normals
+37 tool:morph target:StoreMT
+38 tool:Load Tool
+39 tool:Import
+40 tool:Export
+41 tool:Import
+42 tool:Export
+43 tool:Import
+44 tool:Export

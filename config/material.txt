@@ -1,0 +1,42 @@
+01 material:flat color
+02 material:matcap red wax
+03 material:chalk
+04 material:chrome a
+05 material:gold
+06 material:polyskin
+07 material:matcap lbrownclay
+08 material:matcap white01
+09 material:matcap redclay
+10 material:reflect2
+11 material:reflect3
+12 material:framer01
+13 material:mah_shiny
+14 material:matcap gray
+15 material:matcap skeleton
+16 material:matcap skin04
+17 material:basicmaterial
+18 material:BasicMaterial2
+19 material:BumpViewerMaterial
+20 material:normalRGBMat
+21 material:blinn
+22 material:toyplastic
+23 material:trishaders
+24 material:quadshaders
+25 material:fibers1
+26 material:hair1
+27 material:Hair2
+28 material:darkenedge
+29 material:fresneloverlay
+30 material:rgb levels
+31 material:blinn
+32 material:toyplastic
+33 material:trishaders
+34 material:quadshaders
+35 material:fibers1
+36 material:hair1
+37 material:Hair2
+38 material:darkenedge
+39 material:fresneloverlay
+40 material:rgb levels
+41 material:blinn
+42 material:toyplastic

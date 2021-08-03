@@ -1,0 +1,30 @@
+01 draw:perpective
+02 draw:camera
+03 draw:lock camera
+04 draw:floor
+05 document:actual
+06 document:aahalf
+07 movie:timeline:show
+08 preferences:config:enable customize
+09 preferences:interface:show alt doc view
+10 render:bpr render pass:render best preview
+11 transform:draw
+12 transform:edit
+13 transform:snapshot
+14 transform:frame
+15 transform:setpvt
+16 transform:pf
+17 transform:solo
+18 transform:activate
+19 transform:Ghost
+20 transform:da
+21 enpty
+22 enpty
+23 enpty
+24 enpty
+25 enpty
+26 enpty
+27 enpty
+28 enpty
+29 enpty
+30 enpty

@@ -1,0 +1,50 @@
+01 macro:Append a qcube subtool
+02 macro:append eyes
+03 macro:apply round corners to mask
+04 macro:center mesh to world
+05 macro:create stencil from subtool
+06 macro:delete all
+07 macro:Delete
+08 macro:snap to ground
+09 macro:toggle brush depth
+10 macro:toggle mask by polygroups
+11 macro:toggle mask depth
+12 macro:toogle see-through
+13 macro:Tray Left
+14 macro:Tray Right
+15 macro:Zero X
+16 macro:Zero Y
+17 macro:Zero Z
+18 macro:empty
+19 macro:empty
+20 macro:empty
+21 macro:empty
+22 macro:empty
+23 macro:empty
+24 macro:empty
+25 macro:empty
+26 macro:empty
+27 macro:empty
+28 macro:empty
+29 macro:empty
+30 macro:empty
+31 macro:empty
+32 macro:empty
+33 macro:empty
+34 macro:empty
+35 macro:empty
+36 macro:empty
+37 macro:empty
+38 macro:empty
+39 macro:empty
+40 macro:empty
+41 macro:empty
+42 macro:empty
+43 macro:empty
+44 macro:empty
+45 macro:empty
+46 macro:empty
+47 macro:empty
+48 macro:empty
+49 macro:empty
+50 macro:empty

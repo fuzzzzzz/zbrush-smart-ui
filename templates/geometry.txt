@@ -1,0 +1,30 @@
+01 tool:geometry:divide
+02 tool:geometry:delete hidden 
+03 tool:subtool:delete
+04 tool:geometry:zremesher
+05 tool:geometry:weldpoints
+06 tool:geometry:close hole
+07 tool:geometry:Edge Loop
+08 tool:geometry:GroupsLoops
+09 tool:geometry:p.Panel Loops
+10 tool:geometry:D.Delete Loops
+11 tool:geometry:Crease
+12 tool:geometry:UnCrease
+13 tool:geometry:Crease PG
+14 tool:geometry:UnCrease PG
+15 tool:geometry:ClayPolish
+16 tool:geometry:Unweld Groups Border
+17 tool:geometry:Unweld All
+18 tool:geometry:Check Mesh integrity
+19 tool:geometry:Fix Mesh
+20 tool:deformation:Unify
+21 tool:deformation:mirror
+22 tool:masking:MaskByFeature
+23 tool:visibility:Grow
+24 tool:visibility:shrink
+25 tool:polygroups:auto groups
+26 tool:polygroups:groups by normals
+27 tool:morph target:storeMT
+28 tool:Load Tool
+29 tool:import
+30 tool:export
